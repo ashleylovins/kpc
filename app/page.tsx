@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Home() {
 
@@ -26,8 +25,7 @@ export default function Home() {
 
 const chemists = people.filter(person => person.profession === 'chemist');
 const physicists = people.filter(person => person.profession === 'physicist');
-const mathematicians = people.filter(person => person.profession === 'mathematician');
-const astrophysicists = people.filter(person => person.profession === 'astrophysicist');
+
 
   return ( <><div>
     <h1> Scientists</h1>
